@@ -1,0 +1,381 @@
+*{
+    box-sizing: content-box;
+  }
+  
+  body{
+   /* background-color: #166200;
+   */
+   background-image: url(/img/Background.png); 
+   font-family: 'Oxygen' , sans-serif;
+    font-size: 1.1em;
+  
+    font-size: 16px;
+    color: #fff;
+    background-color: #456e38;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  #header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  
+  }
+  #BackToTop{
+  text-decoration: underline;
+  
+  }
+  
+  #logo-img {
+    background: url("../img/LagAC1.png")  no-repeat;
+    width: 150px;
+    height: 140px;
+    margin: 10px 10px 10px 0px;
+    margin-left: -10px;
+  }
+  
+  .navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+    color:white;
+    background-color: #E7E7E7;
+    
+    
+    
+    
+  }
+  a{
+    color: white;
+  }
+  .navbar-brand{
+    padding-top: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #121a61;
+    font-size: 0.75em;
+    
+    
+  }
+  
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #nav-list a:hover {
+   
+   color: black;
+   background-color: white;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+    color: white;
+    text-align: right;
+    padding-right: 15px;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #166200;
+  
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+  }
+  
+  button:hover , button:focus{
+    background-color: #122061;
+  }
+  #MenuClass{
+    text-align: center;
+    font-weight: 700;
+    font-size: 200%
+      }
+    
+    
+    footer{
+      height: 100px;
+      
+    }
+    
+      footer a{
+        color: aliceblue;
+        
+      }
+      footer a:hover, footer a:focus{
+        color: aliceblue;
+        text-decoration: none;
+        background-color: black;
+      }
+    
+      #BackToTop{
+        text-align: center;
+        margin-top: 50px;
+        
+      }
+      *{
+        box-sizing: border-box;
+      }
+
+
+      #InfoBoxes{
+     
+     
+     height: 350px;
+     background-color: rgb(1, 13, 6);
+     margin: 0px 50px 0px 50px;
+     border: 1px solid whitesmoke;
+     border-radius: 24px;
+     padding-right: 10px;
+padding-left: 10px;
+text-align: center;
+      }
+
+
+#Boxes{
+
+    height: 250px;
+    width: 99%;
+    margin-left: 8px;
+    margin-top: 20px;
+    border-radius: 24px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 0.5px solid rgb(19, 67, 19);
+    
+    background-color: black;
+    text-align: center;
+
+}
+p{
+    
+}
+h2{
+  font-family:'Courier New', Courier, monospace;
+  
+ }
+
+#Players{
+    background:url(/img/LagBackLinkSoul.png);
+    height: 200px;
+    width: 30%;
+    margin-top:20px;
+    border: 2px solid rgb(19, 67, 19);
+    border-radius: 24px;
+    text-align: center;
+    
+float:left;
+position: relative;
+display: flex;
+  justify-content: center;
+/*  align-items: center;
+  */
+    
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.5em;
+}
+
+#Stats{
+    background:url(/img/LagBackLinkSoul.png);
+    height: 200px;
+    width: 30%;
+    margin-top:20px;
+ float:left;
+margin-left: 5.5%;
+border: 2px solid rgb(19, 67, 19);
+ border-radius: 24px;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 2.5em;
+    
+    
+}
+#News{
+    background:url(/img/LagBackLinkSoul.png);
+    height: 200px;
+    width: 30%;
+    margin-top:20px;
+    margin-left: 0px;
+    float: right;
+    border-radius: 24px;
+    border: 2px solid rgb(19, 67, 19);
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+
+
+    
+    
+}
+
+#News:hover, #News:focus{
+    background: url(/img/LagBackLinkSoul35.png);
+}
+
+#Players:hover, #Players:focus{
+    background: url(/img/LagBackLinkSoul35.png);
+}
+#Stats:hover, #Stats:focus{
+    background: url(/img/LagBackLinkSoul35.png);
+}
+#PlayersLink{
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height : 175px;
+    
+ /*   align-items: center;
+*/
+    height: 200px;
+    width: 100%;
+    display: block; 
+}
+#PlayersLink:hover, #PlayersLink:focus{
+    text-decoration: none;
+    font-family:fantasy ;
+     font-size: 1.5em;
+     color: rgb(255, 255, 255);
+/*    display: block; */ 
+   
+    border-radius: 24px;
+    border: 2px solid white;
+}
+
+
+
+
+#StatsLink{
+    text-align: center;
+     display: flex;
+     justify-content: center;
+     line-height : 175px;
+     
+  /*   align-items: center;
+ */
+     height: 200px;
+     width: 100%;
+     display: block; 
+ }
+ #StatsLink:hover, #StatsLink:focus{
+     text-decoration: none;
+     font-family:fantasy ;
+     font-size: 1.5em;
+     color: rgb(255, 255, 255);
+ /*    display: block; */ 
+  
+     border-radius: 24px;
+     border: 2px solid white;
+ }
+
+ 
+
+
+ #NewsLink{
+    text-align: center;
+     display: flex;
+     justify-content: center;
+     line-height : 175px;
+     
+  /*   align-items: center;
+ */
+     height: 200px;
+     width: 100%;
+     display: block; 
+ }
+ #NewsLink:hover, #NewsLink:focus{
+     text-decoration: none;
+     font-family:fantasy ;
+     font-size: 1.5em;
+     color: rgb(255, 255, 255);
+ /*    display: block; */ 
+border: 2px solid white;
+     border-radius: 24px;
+ }
+
+
+#InfoSec{
+    margin: 0px 50px 0px 50px;
+     
+     border-radius: 24px;
+     padding-right: 10px;
+     padding-top: 20px;
+padding-left: 10px;
+
+}
+
+#InfoClub{
+  text-align: center;
+  background:url(/img/LagBackLinkSoul.png);
+}
+ #ClubInfo{
+height: 300px;
+width: 40%;
+background: url(/img/LagBackLinkSoul.png) ;
+border: 1px solid wheat;
+border-radius: 24px;
+padding: 10px;
+float: left;
+position: relative;
+ 
+margin-left: 40px;
+}
+
+ #ClubInfo{
+  overflow: auto;
+ }
+
+ #ClubAnthem{
+  height: 300px;
+  width: 40%;
+  border: 1px solid wheat;
+  border-radius: 24px;
+  background: url(/img/LagBackLinkSoul.png) ;
+  float: right;
+  overflow: auto;
+  padding: 10px;
+  margin-right: 40px;
+
+ }
+ #Videobox{
+  margin-left: 60px;
+  margin-top: -15px;
+
+ }
+ #Anthem{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+ }
+ #Carnaval{
+  text-align: center;
+ }
+ 
+
+
+      @media (max-width:767px){
+      #bs{
+        clear: both;
+      }
+        
+   
+        
+      }
+      
+    
+  
+      
+  
