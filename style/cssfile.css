@@ -138,7 +138,7 @@
      
      
      height: 350px;
-     background-color: rgb(1, 13, 6);
+     background:url(/img/LagBackLinkSoul.png);
      margin: 0px 50px 0px 50px;
      border: 1px solid whitesmoke;
      border-radius: 24px;
@@ -308,7 +308,10 @@ border: 2px solid white;
 
 
 #InfoSec{
-    margin: 0px 50px 0px 50px;
+    margin: 20px 50px 0px 50px;
+    background: url(/img/LagBackLinkSoul.png);
+border: 1px solid whitesmoke;
+    height: 400px;
      
      border-radius: 24px;
      padding-right: 10px;
@@ -320,6 +323,7 @@ padding-left: 10px;
 #InfoClub{
   text-align: center;
   background:url(/img/LagBackLinkSoul.png);
+  margin-top: -10px;
 }
  #ClubInfo{
 height: 300px;
