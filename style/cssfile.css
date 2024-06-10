@@ -5,7 +5,7 @@
   body{
    /* background-color: #166200;
    */
-   background-image: url(/img/Background.png); 
+   background-image: url(/Background.png); 
    font-family: 'Oxygen' , sans-serif;
     font-size: 1.1em;
   
@@ -25,9 +25,52 @@
   text-decoration: underline;
   
   }
+
+
+  #EntryLevel{
+    border: 1px solid wheat;
+
+  height: 350px;
+  background: url(/LagBackLinkSoul.png);
+
+
+padding: 10px;
+margin-left: 175px;
+margin-bottom: 10px;
+margin-right: 230px;
+border-radius: 125px;
+
+  }
+  #Entry1{
+margin-top: 120px;
+margin-left: 100px;
+font-size: 4.5em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+#BigLagLogo{
+  float: right;
+  margin-right: 100px;
+  margin-top: -250px;
+  
+}
+#BigLagLag{
+  text-align: center;
+  clear: both;
+  font-size: 0.95em;
+  
+}
+
+
+
+  #Entry2{
+    margin-left: 100px;
+    ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   
   #logo-img {
-    background: url("../img/LagAC1.png")  no-repeat;
+    background: url("/LagAC1.png")  no-repeat;
     width: 150px;
     height: 140px;
     margin: 10px 10px 10px 0px;
@@ -137,11 +180,11 @@
       #InfoBoxes{
      
      
-     height: 350px;
-     background:url(/img/LagBackLinkSoul.png);
+     height: 250px;
+    /* background:url(/LagBackLinkSoul.png);*/
      margin: 0px 50px 0px 50px;
-     border: 1px solid whitesmoke;
-     border-radius: 24px;
+     /*border: 1px solid whitesmoke;*/
+     /*border-radius: 24px;*/
      padding-right: 10px;
 padding-left: 10px;
 text-align: center;
@@ -150,18 +193,23 @@ text-align: center;
 
 #Boxes{
 
-    height: 250px;
+    height: 320px;
     width: 99%;
     margin-left: 8px;
     margin-top: 20px;
     border-radius: 24px;
     padding: 10px;
     padding-left: 20px;
-    border: 0.5px solid rgb(19, 67, 19);
+    /*border: 0.5px solid rgb(19, 67, 19);*/
     
-    background-color: black;
+   
     text-align: center;
 
+}
+
+
+h2{
+  font-size: 3.2em;
 }
 p{
     
@@ -172,7 +220,7 @@ h2{
  }
 
 #Players{
-    background:url(/img/LagBackLinkSoul.png);
+    background:url(/LagBackLinkSoul.png);
     height: 200px;
     width: 30%;
     margin-top:20px;
@@ -192,7 +240,7 @@ display: flex;
 }
 
 #Stats{
-    background:url(/img/LagBackLinkSoul.png);
+    background:url(/LagBackLinkSoul.png);
     height: 200px;
     width: 30%;
     margin-top:20px;
@@ -206,7 +254,7 @@ border: 2px solid rgb(19, 67, 19);
     
 }
 #News{
-    background:url(/img/LagBackLinkSoul.png);
+    background:url(/LagBackLinkSoul.png);
     height: 200px;
     width: 30%;
     margin-top:20px;
@@ -223,14 +271,14 @@ border: 2px solid rgb(19, 67, 19);
 }
 
 #News:hover, #News:focus{
-    background: url(/img/LagBackLinkSoul35.png);
+    background: url(/LagBackLinkSoul35.png);
 }
 
 #Players:hover, #Players:focus{
-    background: url(/img/LagBackLinkSoul35.png);
+    background: url(/LagBackLinkSoul35.png);
 }
 #Stats:hover, #Stats:focus{
-    background: url(/img/LagBackLinkSoul35.png);
+    background: url(/LagBackLinkSoul35.png);
 }
 #PlayersLink{
    text-align: center;
@@ -309,7 +357,7 @@ border: 2px solid white;
 
 #InfoSec{
     margin: 20px 50px 0px 50px;
-    background: url(/img/LagBackLinkSoul.png);
+    background: url(/LagBackLinkSoul.png);
 border: 1px solid whitesmoke;
     height: 400px;
      
@@ -322,13 +370,13 @@ padding-left: 10px;
 
 #InfoClub{
   text-align: center;
-  background:url(/img/LagBackLinkSoul.png);
+  background:url(/LagBackLinkSoul.png);
   margin-top: -10px;
 }
  #ClubInfo{
 height: 300px;
 width: 40%;
-background: url(/img/LagBackLinkSoul.png) ;
+background: url(/LagBackLinkSoul.png) ;
 border: 1px solid wheat;
 border-radius: 24px;
 padding: 10px;
@@ -347,7 +395,7 @@ margin-left: 40px;
   width: 40%;
   border: 1px solid wheat;
   border-radius: 24px;
-  background: url(/img/LagBackLinkSoul.png) ;
+  background: url(/LagBackLinkSoul.png) ;
   float: right;
   overflow: auto;
   padding: 10px;
