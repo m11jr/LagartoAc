@@ -415,6 +415,46 @@ margin-left: 40px;
  #Carnaval{
   text-align: center;
  }
+
+ footer{
+  
+  padding: 30px;
+  
+  height: 250px;
+
+
+  background-color: black;
+
+  margin-top: 15px;
+ }
+
+ #Available{
+  margin-left: 30px;
+  width: 34%;
+  font-size: 1.1em;
+  float: left;
+ }
+
+ #P1{
+margin-bottom: 10px;
+ }
+ #P2{
+margin-top: 20px;
+ }
+ #P3{
+  margin-top: 20px;
+
+ }
+ #P4{
+  margin-top: 20px;
+
+ }
+
+
+ #stadiums{
+width: 34%;
+  float: left;
+ }
  
 
 
